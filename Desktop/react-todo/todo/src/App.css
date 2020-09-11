@@ -1,0 +1,51 @@
+body{
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgb(17, 55, 99) 25%,
+ rgb(51, 13, 21) 80%);
+}
+
+.app
+{
+  background: rgb(255,151,240);
+background: linear-gradient(8deg, rgba(255,151,240,1) 0%,
+ rgb(199, 199, 176) 100%);
+  min-height: 500px;
+  width: 400px;
+  margin:60px auto;
+}
+#to-do input{
+  background-color:blue;
+  border:0;
+  width:250px;
+  height:40px;
+  padding:7px;
+  margin:20px;
+  font-size: 18px;
+  outline:none;
+  border-radius: 10px;
+  color:white;
+}
+
+#to-do ::placeholder
+{
+  color: rgb(197, 197, 157);
+}
+#to-do button{
+  height:45px;
+  width: 80px;
+  border-radius:10px;
+  color:rgb(31, 26, 26);
+  cursor: pointer;
+  border:0;
+  font-weight: bold;
+  font-size:16px;
+  outline: 0;
+  background-color: rgb(255, 239, 15);
+}
+
+@media screen and (max-width:600px)
+{
+  .app{
+    min-height:80vh;
+  }
+}

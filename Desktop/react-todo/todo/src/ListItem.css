@@ -1,0 +1,40 @@
+.list
+{
+    color:white;
+    width:320px;
+    height:50px;
+    display: block;
+    padding:1px 10px;
+    margin:20px auto;
+    border-radius: 10px;
+    background-color:rgb(197, 49, 148);
+}
+.list p{
+    width: 100%;
+}
+.list p span{
+    position: relative;
+    left:90px;
+}
+.icon
+{
+    margin:0 5px;
+    font-size:15px;
+    cursor: pointer;
+    color:white;
+}
+
+p input{
+    outline: none;
+    border: none;
+    color: white;
+    font-size:15px;
+    background-color: transparent;
+}
+
+@media screen and (max-width:600px)
+{
+    .icon{
+        right: 80px;
+    }
+}
