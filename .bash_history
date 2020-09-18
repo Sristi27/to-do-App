@@ -515,3 +515,7 @@ npm run build
 npm run deploy
 npm install gh-pages --save-dev
 npm run deploy
+iit add .
+git add .
+git commit -m "initial commit"
+git push origin master
